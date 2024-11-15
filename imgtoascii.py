@@ -36,5 +36,5 @@ def convert_image_to_ascii(image_path, new_width=100):
 
 image_path = "image.jpg"  # Replace with the path to your image
 ascii_art = convert_image_to_ascii(image_path, new_width=100)
-with open("ggg.txt", 'w+') as img:
+with open("ggg.txt", 'w+') as img: #Replace with the path to your txt file
     img.write(ascii_art)
